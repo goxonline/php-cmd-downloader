@@ -42,6 +42,10 @@ I put a USER AGENT in the curl attributes, but you can change it with whatever y
 
 ## Todo
 Read the title of the thread.
+
 Add Database backend.
+
 Read and import URL and Cache files to DB.
+
 Make HTML front-end.
+
