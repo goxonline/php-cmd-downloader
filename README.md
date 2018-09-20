@@ -40,7 +40,7 @@ I put a USER AGENT in the curl attributes, but you can change it with whatever y
 
 (that is all.)
 
-## Todo
+## TO DO
 Read the title of the thread.
 
 Add Database backend.
