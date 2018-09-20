@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 /** Config **/
-$master_path	= '/storage/local/htdocs/boards2/';
+$master_path	= '/your/directory/path';
 /** Allow download content **/
 /** Set true to allow **/
 
@@ -12,7 +12,7 @@ $allow_download_vid	= true;
 
 /** Is you need to chan the owner and group of each file, set it here **/
 
-$change_owner	= true;
+$change_owner	= false;
 $user_id	= 1001;
 $group_id	= 1001;
 
