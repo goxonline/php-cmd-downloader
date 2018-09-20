@@ -4,7 +4,7 @@ Simple command line php script, html parser and downloader.
 ## History
 A friend ask my a way to download all the images and videos from ImageBoards systems like 8chan and similars (4chan, and other based in javascript are not supported right now).
 
-So, this little script parthe the thread and parse all the "a" tag, then check each URL extension and download into directories.
+So, this little script parthe the thread and parse all the "a" tag, then check each URL extension and download all the images and files into directories.
 
 ## Requirements
 PHP 5.4
@@ -34,7 +34,13 @@ $group_id	= 1001;
 
 I put a USER AGENT in the curl attributes, but you can change it with whatever you want.
 
-##
+## Usage
+
+./doanloder.php http://yoururl.com/some.html
+
+(that is all.)
+
+## Todo
 Read the title of the thread.
 Add Database backend.
 Read and import URL and Cache files to DB.
