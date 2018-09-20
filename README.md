@@ -25,11 +25,13 @@ $master_path  = 'c://some/directory/'
 
 If you dont want to download the videos or images, set the variables "allow_download_*", vid or img to false.
 
-##Advance configuration
+## Advance configuration
 In GNU/Linux or other *nix, is you run the script with another user, and want to write the files with another owner set the variable "change_owner" to true and change "user_id" and "group_id" with the right user and group id. For example:
 
 $change_owner	= true;
+
 $user_id	= 1001;
+
 $group_id	= 1001;
 
 I put a USER AGENT in the curl attributes, but you can change it with whatever you want.
