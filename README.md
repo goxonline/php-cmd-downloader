@@ -1,6 +1,8 @@
 # Downloader 
 Simple command line php script, html parser and downloader.
 
+In simples words, it download all the images from image boards like 8chan.
+
 ## History
 A friend ask my a way to download all the images and videos from ImageBoards systems like 8chan and similars (4chan, and other based in javascript are not supported right now).
 
